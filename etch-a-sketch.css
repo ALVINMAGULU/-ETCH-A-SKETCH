@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(134, 201, 26);
+}
+#grid{
+    float:center;
+    display:grid;
+    background-color: white;
+    width:500px;
+    height: 500px;
+    grid-template-columns:repeat(16,2fr); 
+    grid-template-rows: repeat(16,2fr);
+     
+}
+
+.grid{
+   background-color:white;
+   
+}
+
+.mouse-over{
+    background-color: seagreen;
+}
+#restart{
+    position: fixed;
+    width: 10%;
+    height: 30px;
+    background-color: blueviolet;
+    color: khaki;
+    border-radius: 5px;
+    margin-top:8%;
+    font-size: 15px;
+}
+.center{
+    display:block;
+    margin:auto;
+    width:50%;
+    text-align: center;
+}
+#reset{
+    position: fixed;
+    width: 10%;
+    height: 30px;
+    background-color: blueviolet;
+    color: khaki;
+    border-radius: 5px;
+    margin-top:3%;
+    font-size: 15px;
+}
+
